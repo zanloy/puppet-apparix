@@ -37,7 +37,6 @@ class apparix {
       }
     }
   }
-
     
   file {
     '/etc/bashrc.d/apparix':

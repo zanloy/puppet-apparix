@@ -1,17 +1,19 @@
 {
   "name": "zanloy-apparix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "zanloy",
   "summary": "Installs apparix which is a command line directory bookmarking tool.",
-  "license": "Apache 2.0",
+  "license": "Apache License, Version 2.0",
   "source": "https://github.com/zanloy/puppet-apparix",
   "project_page": "https://github.com/zanloy/puppet-apparix",
   "issues_url": "https://github.com/zanloy/puppet-apparix/issues",
-  "dependencies": [
-    {
-      "name": "puppetlabs-stdlib",
-      "version_range": ">= 1.0.0"
-    }
-  ]
+  "dependencies": [],
+  "operatingsystem_support": [
+    {"operatingsystem": "CentOS"},
+    {"operatingsystem": "Debian"},
+    {"operatingsystem": "RedHat"},
+    {"operatingsystem": "Ubuntu"}
+  ],
+  "tags": ["CentOS", "Debian", "RedHat", "Ubuntu"]
 }
 
